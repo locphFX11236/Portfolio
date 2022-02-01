@@ -1,0 +1,6 @@
+[class*="col-"] {width: 100%;}
+@media only screen and (min-width: 768px) {.col-sm-6 {width: 50%;}}
+@media only screen and (min-width: 992px) {
+    .col-md-4 {width: 33.33%;}
+    .col-md-6 {width: 50%;}
+}

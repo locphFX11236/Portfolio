@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" media="all" href="asm3js_css.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="asm3js_js.js"></script>
+
+    </head>
+
+    <body>
+        <div class="center">
+            <h1>Class Marksheet</h1>
+        
+            <label>Họ tên: </label><br>
+            <input id="name" placeholder="Nhập tên" type="text"><br>
+            <label>Điểm toán: </label><br>
+            <input id="math" placeholder="Nhập điểm" type="number"><br>
+            <label>Điểm lý: </label><br>
+            <input id="phys" placeholder="Nhập điểm" type="number"><br>
+            <label>Điểm hóa: </label><br>
+            <input id="chemi" placeholder="Nhập điểm" type="number"><br>
+            <br>
+            
+            <button id="btnnhap" class="button">Nhập</button>
+            <button id="btnxoa" class="button">Xóa</button>
+        </div>
+
+        <table id="myTable" width="100%">
+            <tr>
+                <th>STT</th>
+                <th>Họ tên</th>
+                <th>Điểm Toán</th>
+                <th>Điểm Lý</th>
+                <th>Điểm Hóa</th>
+                <th>Điểm trung bình</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Hạ An</td>
+                <td>9</td>
+                <td>8.5</td>
+                <td>7</td>
+                <td>?</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Minh Phú</td>
+                <td>9</td>
+                <td>10</td>
+                <td>9</td>
+                <td>?</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Quốc Thái</td>
+                <td>7</td>
+                <td>6</td>
+                <td>8</td>
+                <td>?</td>
+            </tr>
+
+        </table>
+
+        <div class="center">
+            <button id="btntinh" class="button">Tính điểm<br>trung bình</button>
+            <button id="btntim" class="button">Xác định<br>học sinh giỏi</button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+* {box-sizing: border-box;}
+body {background-color: gainsboro;}
+table, th, td {
+    border: 1px solid green;
+    margin: 20px 0 20px 0;
+    background-color:white;
+}
+h1, p {margin: 5px;}
+div {text-align: center;}
+label {
+    float: left;
+    margin: 5px;
+}
+input {
+    float: right;
+    width: 100%;
+}
+.center {
+    border: 2px solid green;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    width: 25%;
+    text-align: center;
+    background-color: honeydew;
+}
+.button {
+    display: block;
+    border-radius: 20px;
+    margin: auto;
+    height: 40px;
+    background-color:khaki;
+}
+.gioi {color: red;}
+
+@media only screen and (min-width: 992px) {
+    body {background-color: gray;}
+    h1 {color:brown;}
+    .button {
+        display: inline-block;
+        width: 40%;
+    }
+}

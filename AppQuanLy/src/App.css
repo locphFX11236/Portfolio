@@ -1,0 +1,52 @@
+.row {margin: 0px;}
+
+.container {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border {
+    border-radius: 10px;
+    background-color: ghostwhite;
+    border-color: rgb(97, 55, 136) !important
+}
+
+.footer{
+    padding: 20px;
+    background-color: #039e1d;
+}
+
+nav {
+    display: block;
+    background-color: #039e1d;
+}
+
+.card-body {
+    padding: 40px;
+    min-height: 40vh;
+}
+
+.breadcrumb {margin: 0;}
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}
